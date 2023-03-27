@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".DataEntry">
 
+    <EditText
+        android:id="@+id/stateEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter State Name"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/districtEntry"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <EditText
+        android:id="@+id/districtEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter District Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stateEntry"
+        app:layout_constraintBottom_toTopOf="@id/soilTypeEntry"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <EditText
+        android:id="@+id/soilTypeEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter soil Type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/districtEntry"
+        app:layout_constraintBottom_toTopOf="@id/registerBtn"
+        android:layout_marginBottom="250dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/soilTypeEntry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

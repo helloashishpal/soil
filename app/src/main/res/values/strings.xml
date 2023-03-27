@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">soil</string>
+    <string name="data_entry">Enter Data</string>
+    <string name="find_soil_type">Find the soil type</string>
+</resources>
