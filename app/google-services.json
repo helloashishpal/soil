@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "974165820371",
+    "firebase_url": "https://findmysoil-default-rtdb.firebaseio.com",
+    "project_id": "findmysoil",
+    "storage_bucket": "findmysoil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974165820371:android:7cd4c55f62c1e9fb84a526",
+        "android_client_info": {
+          "package_name": "com.example.findmysoil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974165820371-uei85bno1ebmgko8lbl6ckmcph3pqdut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkalEEii93jCNUFlX-XNLcmJ0xJz4xOX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974165820371-uei85bno1ebmgko8lbl6ckmcph3pqdut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974165820371:android:eb7dd3fc1fc40ce084a526",
+        "android_client_info": {
+          "package_name": "com.example.soil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974165820371-uei85bno1ebmgko8lbl6ckmcph3pqdut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkalEEii93jCNUFlX-XNLcmJ0xJz4xOX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974165820371-uei85bno1ebmgko8lbl6ckmcph3pqdut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
