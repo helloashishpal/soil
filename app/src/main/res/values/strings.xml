@@ -2,4 +2,7 @@
     <string name="app_name">soil</string>
     <string name="data_entry">Enter Data</string>
     <string name="find_soil_type">Find the soil type</string>
+    <string name="state_name">Enter the State Name</string>
+    <string name="district_name">Enter the district name</string>
+    <string name="soil_type">soil type</string>
 </resources>
